@@ -14,8 +14,8 @@ const config = {
     authentication: {
         type: 'default',
         options: {
-            userName: 'applepie-server-admin', // Your username
-            password: '87R31282FT1OVUW7$' // Your password
+            userName: process.env.DB_USERNAME, // Your username
+            password: process.env.DB_PASSWORD // Your password
         }
     },
     options: {
